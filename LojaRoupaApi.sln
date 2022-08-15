@@ -5,11 +5,19 @@ VisualStudioVersion = 17.3.32519.111
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dominio", "Dominio", "{53CABD60-F6C6-40EF-82AC-E494C8DCCA42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaRoupaApi.Dominio", "LojaRoupaApi.Dominio\LojaRoupaApi.Dominio.csproj", "{2E2FC5A0-6871-4FA0-8F39-65A706B653F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LojaRoupaApi.Dominio", "LojaRoupaApi.Dominio\LojaRoupaApi.Dominio.csproj", "{2E2FC5A0-6871-4FA0-8F39-65A706B653F3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apresentacao", "Apresentacao", "{498B119D-7B1D-4EE4-A097-7ABB6E0BEDF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaRoupaApi.Apresentacao", "LojaRoupaApi.Apresentacao\LojaRoupaApi.Apresentacao.csproj", "{D4DA365D-9958-4B21-92C7-7C3729CF64DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LojaRoupaApi.Apresentacao", "LojaRoupaApi.Apresentacao\LojaRoupaApi.Apresentacao.csproj", "{D4DA365D-9958-4B21-92C7-7C3729CF64DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{44D86F94-E730-4CFC-8EE1-359295162C77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaRoupaApi.Infra", "LojaRoupaApi.Infra\LojaRoupaApi.Infra.csproj", "{BED6F4FE-9F90-4F59-8A87-BD14018F18AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aplicacao", "Aplicacao", "{C1E43DA3-4360-40C7-BAF1-543A8EEA1E53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaRoupaApi.Aplicacao", "LojaRoupaApi.Aplicacao\LojaRoupaApi.Aplicacao.csproj", "{7A62B5EB-80D1-4F7F-A0BE-DB194258C713}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +33,14 @@ Global
 		{D4DA365D-9958-4B21-92C7-7C3729CF64DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4DA365D-9958-4B21-92C7-7C3729CF64DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4DA365D-9958-4B21-92C7-7C3729CF64DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BED6F4FE-9F90-4F59-8A87-BD14018F18AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BED6F4FE-9F90-4F59-8A87-BD14018F18AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BED6F4FE-9F90-4F59-8A87-BD14018F18AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BED6F4FE-9F90-4F59-8A87-BD14018F18AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A62B5EB-80D1-4F7F-A0BE-DB194258C713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A62B5EB-80D1-4F7F-A0BE-DB194258C713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A62B5EB-80D1-4F7F-A0BE-DB194258C713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A62B5EB-80D1-4F7F-A0BE-DB194258C713}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +48,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{2E2FC5A0-6871-4FA0-8F39-65A706B653F3} = {53CABD60-F6C6-40EF-82AC-E494C8DCCA42}
 		{D4DA365D-9958-4B21-92C7-7C3729CF64DF} = {498B119D-7B1D-4EE4-A097-7ABB6E0BEDF9}
+		{BED6F4FE-9F90-4F59-8A87-BD14018F18AC} = {44D86F94-E730-4CFC-8EE1-359295162C77}
+		{7A62B5EB-80D1-4F7F-A0BE-DB194258C713} = {C1E43DA3-4360-40C7-BAF1-543A8EEA1E53}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E54085C8-FEEF-4EF9-BE2C-C5AE883F6141}
